@@ -13,6 +13,12 @@ spring:
     database: 5
     host: 121.89.247.94
     port: 30119
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1ms
+        max-idle: 8
+    connect-timeout: 5000ms
 
   security:
     user:
