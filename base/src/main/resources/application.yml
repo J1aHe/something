@@ -3,10 +3,10 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://47.92.168.116:30102/jiahe
+    url: ENC(+XoXdOuBUWDBafpqD+tW4geB58Cl7z/6RqLAX7HlvpXbS3DI436Ot55e5QJ5mgJJwGgtzAepCqQ/78JyVNHeaJh1kvWxJ1h0aV7yZr8MtF8=)
     type: com.alibaba.druid.pool.DruidDataSource
-    username: root
-    password: dehoop123
+    username: ENC(2t6KyrcdAWssNaB4b8tX1fXdN7grtxjGyNLP18v0UKcIYdbiHvHn/TLIgWZHg6sk)
+    password: ENC(nye9l58BuZCokP7dQ5YMA1eUhtmHDmEzin9/h5q1S2MvIvrn6lmRSzOcyiQT4L0a)
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   redis:
